@@ -2,69 +2,62 @@ import React from "react";
 
 function ContentHome () {
     return (
-  <div className="flex justify-center items-center min-h-screen bg-base-10 gap-10">
-  {/* Card Kiri */}
-  <div className="card bg-base-40 w-96 shadow-sm">
-    <figure className="px-10 pt-10">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        alt="Shoes"
-        className="rounded-xl"
-      />
-    </figure>
-    <div className="card-body items-center text-center">
-      <h2 className="card-title">Left Nike</h2>
-      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div className="card-actions">
-        <button className="btn btn-primary">Buy</button>
-      </div>
-    </div>
+  <div className="hero min-h-screen bg-base-content">
+  <div className="hero-content bg-base-content w-270  flex-col lg:flex-row">
+  <div className="carousel rounded-box w-110 h-100">
+  <div className="carousel-item w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+      className="w-full"
+      alt="Tailwind CSS Carousel component" />
   </div>
-  
-{/* Card Tengah */}
- <div className="flex justify-center items-center min-h-screen bg-base-10 gap-10">
-  <div className="card bg-base-40 w-96 shadow-sm">
-    <figure className="px-10 pt-10">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        alt="Shoes"
-        className="rounded-xl"
-      />
-    </figure>
-    <div className="card-body items-center text-center">
-      <h2 className="card-title">Nike</h2>
-      <p>
-        A card component has a figure, a body part, and inside body there are title and actions parts
+  <div className="carousel-item w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+      className="w-full"
+      alt="Tailwind CSS Carousel component" />
+  </div>
+  <div className="carousel-item w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+      className="w-full"
+      alt="Tailwind CSS Carousel component" />
+  </div>
+  <div className="carousel-item w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+      className="w-full"
+      alt="Tailwind CSS Carousel component" />
+  </div>
+  <div className="carousel-item w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+      className="w-full"
+      alt="Tailwind CSS Carousel component" />
+  </div>
+  <div className="carousel-item w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+      className="w-full"
+      alt="Tailwind CSS Carousel component" />
+  </div>
+  <div className="carousel-item w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+      className="w-full"
+      alt="Tailwind CSS Carousel component" />
+  </div>
+</div>
+    <div>
+      <h1 className="text-5xl font-bold">Kelompok 8!</h1>
+      <p className="py-6">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
-      <div className="card-actions">
-        <button className="btn btn-primary">Buy Now</button>
-      </div>
-    </div>
-  </div>
-
-
-  {/* Card Kanan */}
-  <div className="card bg-base-40 w-96 shadow-sm">
-    <figure className="px-10 pt-10">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        alt="Shoes"
-        className="rounded-xl"
-      />
-    </figure>
-    <div className="card-body items-center text-center">
-      <h2 className="card-title">Right Nike</h2>
-      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div className="card-actions">
-        <button className="btn btn-primary">Buy</button>
-      </div>
+      <button className="btn btn-primary">Join Now</button>
     </div>
   </div>
 </div>
-
-</div>
-
-
     );
 };
 

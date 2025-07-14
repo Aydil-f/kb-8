@@ -4,7 +4,7 @@ import ContentHome from './components/molecules/ContentHome';
 
 function App() {
   return (
-    <div className="bg-white min-h-screen text-black">
+    <div className="bg-neutral-content min-h-screen text-black">
     <Navbar></Navbar>
     <ContentHome></ContentHome>
     </div>
