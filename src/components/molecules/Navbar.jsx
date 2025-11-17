@@ -25,7 +25,7 @@ function Navbar () {
         <li><a>About</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Kelompok 8</a>
+    <a className="btn btn-ghost text-xl">Portofolio Saya</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

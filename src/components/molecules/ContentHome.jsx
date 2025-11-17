@@ -49,12 +49,12 @@ function ContentHome () {
   </div>
 </div>
     <div>
-      <h1 className="text-5xl font-bold">Kelompok 8!</h1>
+      <h1 className="text-5xl font-bold">Aidil Fitriyadi!</h1>
       <p className="py-6">
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
-      <button className="btn btn-primary">Join Now</button>
+      <button className="btn btn-primary">Contact Me</button>
     </div>
   </div>
 </div>
